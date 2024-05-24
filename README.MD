@@ -12,7 +12,7 @@ Para poder ejecutar el proyecto se debe instalar previamente las siguientes herr
 ## Instrucciones para ejecutar las pruebas
 * Ejecutar Appium Sever escuchando en el puerto 4723
 * En Device Manager de Android Studio agregar un dispositivo de version 12 u otra (si configura un dispositivo de version distinta a la 12, debe modificarse appium.platformVersion = 12.0 colocando la version que corresponda en el archivo serenity.properties)
-* Clonar el repositorio desde https://github.com/chris-barrera-ec/challenge-EjercicioSerenity-open-cart.git
+* Clonar el repositorio actual, https://github.com/chris-barrera-ec/ex-mobile-christian-barrera.git
 * Abrir la carpeta del proyecto con IntelliJ IDEA y abrir el proyecto por medio del archivo **build.gradle**
 * Copiar el path completo de _resources/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk_ y reemplazar el que se encuentra delante de _appium.app =_ del archivo _serenity.properties_
 * Una vez cargadas las dependencias dirigirse a la clase java/starter/runners/**CucumberTestSuite**.java
