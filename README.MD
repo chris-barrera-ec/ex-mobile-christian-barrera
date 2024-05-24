@@ -1,4 +1,4 @@
-# Challenge Ejercicio de Automatizacion de una app movil con Serenity BDD con Cucumber y Appium
+# Challenge Ejercicio de Automatización de una app móvil mediante Serenity BDD con Cucumber y Appium
 
 ## Requisitos Previos
 
@@ -11,13 +11,13 @@ Para poder ejecutar el proyecto se debe instalar previamente las siguientes herr
 
 ## Instrucciones para ejecutar las pruebas
 * Ejecutar Appium Sever escuchando en el puerto 4723
-* En Device Manager de Android Studio agregar un dispositivo de version 12 u otra (si configura un dispositivo de version distinta a la 12, debe modificarse appium.platformVersion = 12.0 colocando la version que corresponda en el archivo serenity.properties)
+* En Device Manager de Android Studio agregar un dispositivo de versión 12 u otra (si configura un dispositivo de versión distinta a la 12, debe modificarse appium.platformVersion = 12.0 colocando la versión que corresponda en el archivo serenity.properties)
 * Clonar el repositorio actual, https://github.com/chris-barrera-ec/ex-mobile-christian-barrera.git
 * Abrir la carpeta del proyecto con IntelliJ IDEA y abrir el proyecto por medio del archivo **build.gradle**
 * Copiar el path completo de _resources/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk_ y reemplazar el que se encuentra delante de _appium.app =_ del archivo _serenity.properties_
 * Una vez cargadas las dependencias dirigirse a la clase java/starter/runners/**CucumberTestSuite**.java
 * Y dar clic en Run Test sobre _public class CucumberTestSuite_
-* O tambien puede ir a la parte superior de la pantalla y dar clic en Run '**log_in**'
+* O también puede ir a la parte superior de la pantalla y dar clic en Run '**log_in**'
 * El escenario de prueba que se ejecutara es el siguiente:
   Scenario: Try to log in with valid credentials and go to products
         - Given Christian wants to access to sauce app
